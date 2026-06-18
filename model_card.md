@@ -116,3 +116,12 @@ The model should be monitored regularly for:
 The model should not be used as the sole basis for customer termination, pricing decisions, or eligibility decisions.
 
 Human review is recommended for high-value and high-risk customer cases.
+
+### Threshold Selection
+
+A probability threshold of 0.50 was selected for churn classification.
+
+This threshold provides a reasonable balance between Precision (80.9%) and Recall (75.6%). A lower threshold would identify more churn-risk customers but increase false positives, while a higher threshold would reduce unnecessary retention actions but risk missing actual churn customers.
+
+From a business perspective, retaining at-risk customers is important, therefore a balanced threshold was chosen to support effective retention campaigns while controlling operational costs.
+
